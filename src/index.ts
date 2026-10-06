@@ -4,7 +4,6 @@ import { executar as desafioJuros } from "./desafios/desafio3";
 
 //Desafio 1
 desafioComissao();
-console.log("");
 
 //Desafio 2
 desafioEstoque();

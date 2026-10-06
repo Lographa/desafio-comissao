@@ -125,9 +125,9 @@ export function executar(): void {
 	//função para adicionar o remover do estoque
 	const operacoes: Array<() => ResultadoMovimentacao> = [
 		() => controle.movimentar("entrada", 101, 10),
-		// () => controle.movimentar("saida", 102, 25),
-		// () => controle.movimentar("saida", 103, 500),
-		// () => controle.movimentar("saida", 105, 90),
+		() => controle.movimentar("saida", 102, 25),
+		() => controle.movimentar("saida", 103, 500),
+		() => controle.movimentar("saida", 105, 90),
 	];
 
 	for (const operacao of operacoes) {
